@@ -1,0 +1,11 @@
+username1:password1
+username2:password2
+username3:password3
+harkirat:pass1
+userr:pass1
+uasytxgxasv@ibsidcb.sdcin:11111111
+qwertyuiop@qwer:12345678
+qwertyuiop@qwert:12345678
+121212@121212:11111111
+qwer@qwer:12121212
+123@123:12345678
