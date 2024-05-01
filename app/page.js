@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 
 async function loginUser(email, password) {
-  const response = await fetch("http://localhost:3000/api/auth/login", {
+  const response = await fetch("http://24.199.76.128/api/auth/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -133,7 +133,8 @@ const SigninPage = () => {
         </form>
 
         <div className="text-center">
-          <p className="text-sm text-gray-600">Don't have an account?</p>
+          {/* <p className="text-sm text-gray-600">Don't have an account?</p> */}
+          \<p className="text-sm text-gray-600">{"Don't have an account?"}</p>
           <Link
             href="/signup"
             className="mt-2 inline-block px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

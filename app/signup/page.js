@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 async function signupUser(name, email, password) {
-  const response = await fetch("http://localhost:3000/api/auth/sinup", {
+  const response = await fetch("http://24.199.76.128/api/auth/sinup", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
